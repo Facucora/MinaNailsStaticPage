@@ -70,7 +70,7 @@ a {
      color: transparent;
      background: conic-gradient(
        #D9D7F1 12%, 
-       #BAABDA 12%, #BAABDA 33%, 
+       #BAABDA 12%, #fc71b4 33%, 
        #E7FBBE 33%, #E7FBBE 55%, 
        #FFCBCB 55%, #FFCBCB 70%, 
        #B5DEFF 70%, #B5DEFF 87%, 
@@ -386,15 +386,15 @@ button {
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
-  color: #ffffff;
+  background: #FF004E;
+  color: #00F6EF;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
   background: #E4405F;
-  color: #ffffff;
+  color: #EEC000;
 }
 
 .wrapper .github:hover,
@@ -449,7 +449,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #ffd3e8;
+     color: #fc71b4;
      font-size: 16px;
      line-height: 20px;
 }
@@ -527,7 +527,7 @@ button {
 .text-bg a {
      font-size: 17px;
      background-color: #fff;
-     color: #ffd3e8;
+     color: #3e3e3e;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -538,7 +538,7 @@ button {
 
 .text-bg a:hover {
      background-color: #000;
-     color: #fff;
+     color: #fc71b4;
      transition: ease-in all 0.5s;
      border-radius: 26px;
 }
@@ -606,7 +606,7 @@ button {
      border-radius: 190px;
      background: linear-gradient(to bottom, #ffd3e8, #e8d7ff);
      padding: 15px;
-     box-shadow: 1px 1px 24px -2px rgba(0,0,0,0.79);
+     /*box-shadow: 1px 1px 24px -2px rgba(0,0,0,0.79);*/
 }
 
 
@@ -623,7 +623,8 @@ button {
 }
 
 .weare .weare_box .read_more:hover {
-     background: #ffd3e8;
+     background: #fc71b4;
+     color: #3e3e3e;
 }
 
 
@@ -777,9 +778,9 @@ button {
 }
 
 .regist .main_form .register:hover {
-     background-color: #ffd3e8;
+     background-color: #fc71b4;
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: #3e3e3e;
      border-radius: 26px;
 }
 
@@ -819,7 +820,7 @@ button {
 
 .read_more:hover {
      background: #000;
-     color: #fff;
+     color: #fc71b4;
      border-radius: 26px;
      transition: ease-in all 0.5s;
 }
@@ -931,6 +932,19 @@ button {
 
 /** end testimonial section **/
 
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+     display:none;
+     background-repeat:no-repeat;
+     font-size:20px;
+     color:black;
+     cursor:pointer;
+     position:fixed;
+     bottom:10px;
+     right:10px;
+     z-index:2;
+   }
+   /*Flecha para hacer la pagina hacia arriba*/
 
 /** footer **/
 
